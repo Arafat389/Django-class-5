@@ -1,0 +1,78 @@
+[
+    {
+        "model":"auth.user",
+        "pk":2,
+        "fields":{
+            "username": "john_doe",
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "john@example.com",
+            "password": "pbkdf2_sha256$600000$hashed_password",
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "jane_smith",
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "email": "jane@example.com",
+            "password": "pbkdf2_sha256$600000$hashed_password",
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "username": "mike_wilson",
+            "first_name": "Mike",
+            "last_name": "Wilson",
+            "email": "mike@example.com",
+            "password": "pbkdf2_sha256$600000$hashed_password",
+            "is_active": true
+        }
+    },
+    {
+        "model":"reldemo.profile",
+        "pk":1,
+        "fields": {
+            "user": 1,
+            "bio": "A software developer who loves coding and building web applications",
+            "birth_date": "1990-01-01",
+            "location": "New York"
+        }
+    },
+    {
+        "model": "reldemo.profile",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "bio": "UX designer passionate about creating intuitive user experiences",
+            "birth_date": "1992-05-15",
+            "location": "San Francisco"
+        }
+    },
+    {
+        "model": "reldemo.profile",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "bio": "Data scientist specializing in machine learning and AI",
+            "birth_date": "1988-11-30",
+            "location": "Boston"
+        }
+    },
+    {
+        "model": "reldemo.profile",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "bio": "Product manager with a focus on user-centered design",
+            "birth_date": "1995-08-20",
+            "location": "Chicago"
+        }
+    }
+]
